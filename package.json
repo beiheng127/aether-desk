@@ -1,0 +1,50 @@
+{
+  "name": "aether-desk",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=20.18.0"
+  },
+  "scripts": {
+    "desk": "node scripts/dev.mjs",
+    "dev": "node scripts/dev.mjs",
+    "dev:raw": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "node scripts/run-tests.mjs",
+    "db:path": "node -e \"console.log(require('path').join(process.cwd(),'data','aether.db'))\"",
+    "db:generate": "drizzle-kit generate"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^3.0.84",
+    "@ai-sdk/react": "^3.0.227",
+    "ai": "^6.0.225",
+    "better-sqlite3": "^12.11.1",
+    "clsx": "^2.1.1",
+    "drizzle-orm": "^0.45.2",
+    "lucide-react": "^1.24.0",
+    "nanoid": "^5.1.16",
+    "next": "15.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "tailwind-merge": "^3.6.0",
+    "zod": "^4.4.3",
+    "zustand": "^5.0.14"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^20.19.43",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "drizzle-kit": "^0.31.10",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.6",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

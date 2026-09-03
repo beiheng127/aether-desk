@@ -1,0 +1,157 @@
+[
+  {
+    "id": "agent-loop",
+    "query": "Agent Loop 规划工具执行观察",
+    "expectNoteTitleIncludes": ["Agent Loop"]
+  },
+  {
+    "id": "product-principles",
+    "query": "Aether Desk 产品原则 制品 会话",
+    "expectNoteTitleIncludes": ["Aether Desk 产品原则"]
+  },
+  {
+    "id": "ssr-csr",
+    "query": "SSR CSR 对比 SEO hydration",
+    "expectNoteTitleIncludes": ["SSR vs CSR"]
+  },
+  {
+    "id": "rag-checklist",
+    "query": "RAG 分片 embedding RRF 混合检索",
+    "expectNoteTitleIncludes": ["RAG 落地"]
+  },
+  {
+    "id": "sse-protocol",
+    "query": "SSE 流式 text-delta tool-run artifact",
+    "expectNoteTitleIncludes": ["SSE 流式"]
+  },
+  {
+    "id": "hitl-write",
+    "query": "HITL 写操作 批准 awaiting_approval",
+    "expectNoteTitleIncludes": ["HITL 写操作"]
+  },
+  {
+    "id": "frontend-state",
+    "query": "前端 Agent 状态机 Zustand phase streaming",
+    "expectNoteTitleIncludes": ["前端 Agent 状态机"]
+  },
+  {
+    "id": "chunk-index",
+    "query": "知识库分块 note_chunks 重建索引",
+    "expectNoteTitleIncludes": ["知识库分块"]
+  },
+  {
+    "id": "session-export",
+    "query": "会话导出 JSON 导入回放",
+    "expectNoteTitleIncludes": ["会话导出 JSON"]
+  },
+  {
+    "id": "tool-calling",
+    "query": "Tool Calling stepCount 工具失败",
+    "expectNoteTitleIncludes": ["Tool Calling"]
+  },
+  {
+    "id": "fixture-offline",
+    "query": "离线 Fixture 无 Chat Key mock",
+    "expectNoteTitleIncludes": ["离线 Fixture"]
+  },
+  {
+    "id": "allergy-his",
+    "query": "过敏原 医嘱 颜色映射",
+    "expectNoteTitleIncludes": ["过敏原"]
+  },
+  {
+    "id": "pregnancy-color",
+    "query": "妊娠风险色 文案映射",
+    "expectNoteTitleIncludes": ["妊娠风险色"]
+  },
+  {
+    "id": "order-sign",
+    "query": "医嘱签署 FH0102 幂等",
+    "expectNoteTitleIncludes": ["医嘱签署"]
+  },
+  {
+    "id": "cash-receipt",
+    "query": "收费汇总 CashReceiptSummary 口径",
+    "expectNoteTitleIncludes": ["CashReceiptSummary"]
+  },
+  {
+    "id": "ext-rx-fork",
+    "query": "外配处方 g3a gmc 分叉",
+    "expectNoteTitleIncludes": ["外配处方"]
+  },
+  {
+    "id": "zustand-perf",
+    "query": "Zustand 订阅粒度 重渲染",
+    "expectNoteTitleIncludes": ["Zustand 订阅"]
+  },
+  {
+    "id": "abort-session",
+    "query": "AbortController 会话切换 停止生成",
+    "expectNoteTitleIncludes": ["AbortController"]
+  },
+  {
+    "id": "local-hash",
+    "query": "local-hash Embedding 局限 dims",
+    "expectNoteTitleIncludes": ["Hash Embedding"]
+  },
+  {
+    "id": "eval-hitk",
+    "query": "Eval Hit@k keyword hybrid",
+    "expectNoteTitleIncludes": ["Eval Hit@k"]
+  },
+  {
+    "id": "artifact-ux",
+    "query": "制品区 对话区 引用角标",
+    "expectNoteTitleIncludes": ["制品区与对话区"]
+  },
+  {
+    "id": "save-note-idempotent",
+    "query": "save_note 批准幂等 孤儿笔记",
+    "expectNoteTitleIncludes": ["save_note 批准"]
+  },
+  {
+    "id": "interview-story",
+    "query": "面试叙事 可观测 Agent HITL",
+    "expectNoteTitleIncludes": ["面试叙事"]
+  },
+  {
+    "id": "app-router",
+    "query": "Next App Router RSC force-dynamic",
+    "expectNoteTitleIncludes": ["App Router"]
+  },
+  {
+    "id": "sqlite-choice",
+    "query": "SQLite 个人库 better-sqlite3 arm64",
+    "expectNoteTitleIncludes": ["SQLite 个人库"]
+  },
+  {
+    "id": "rrf-intuition",
+    "query": "RRF 融合 倒数排名 TopK",
+    "expectNoteTitleIncludes": ["RRF 融合"]
+  },
+  {
+    "id": "timeline-ux",
+    "query": "工具时间线 awaiting_approval 四态",
+    "expectNoteTitleIncludes": ["工具时间线"]
+  },
+  {
+    "id": "fixture-contract",
+    "query": "Fixture 真模型切换 hasApiKey 占位 Key",
+    "expectNoteTitleIncludes": ["Fixture 与真模型"]
+  },
+  {
+    "id": "deepseek-prompt",
+    "query": "DeepSeek Prompt 引用 待办批准",
+    "expectNoteTitleIncludes": ["DeepSeek"]
+  },
+  {
+    "id": "generative-ui",
+    "query": "Generative UI task_card table_card",
+    "expectNoteTitleIncludes": ["Generative UI"]
+  },
+  {
+    "id": "qa-checklist",
+    "query": "工作台自测清单 三分钟",
+    "expectNoteTitleIncludes": ["自测清单"]
+  }
+]
